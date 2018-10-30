@@ -1,0 +1,50 @@
+<h1>Hello mon coco, raconte moi un peu ta life</h1>
+
+<!--  VERSION FORM HTML -->
+
+
+<form action="<%= create_path %>" method="POST">
+  <input type="hidden" name="authenticity_token"
+  value="<%= form_authenticity_token %>">
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Username</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Username">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your username with anyone else.</small>
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Bio</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Bio mamen">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your bio with anyone else, exept the rest of the world</small>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+<!--  VERSION FORM_TAG
+
+<%= form_tag url_for(action: 'create'), method: "post" do %>
+
+           <%= label_tag 'Username' %>
+           <%= text_field_tag 'username' %>
+           <br /> <br />
+
+           <%= label_tag 'Email' %>
+           <%= text_field_tag 'email'%>
+           <br /> <br />
+
+           <%= label_tag 'Bio' %>
+           <%= text_area_tag 'bio' %>
+           <br /> <br />
+
+           <%= submit_tag "Submit" %>
+       <% end %>
+-->
