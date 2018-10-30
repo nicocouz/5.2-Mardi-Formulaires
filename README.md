@@ -4,8 +4,7 @@ The Forms Project
 
 Voici le lien Heroku:
 
-https://forms-123456789.herokuapp.com/new
-
+https://forms-123456789.herokuapp.com/
 
 
 
