@@ -1,37 +1,13 @@
-# README
+*5.2 Mardi Forms*
 
-The Forms Project
+# The Forms Project
 
-Voici le lien Heroku:
+This is a simple form project
 
-https://forms-123456789.herokuapp.com/
+- [x] Clone this repo
+- [x] Bundle Install
+- [x] Run rails db:create
+- [x] Run rails db:migrate
+- [x] Run rails -s
 
-------------------------------------
-
-  Georges Atalla & Nicolas Cousin
-
-------------------------------------
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
+Have fun ! 
