@@ -8,6 +8,6 @@ This is a simple form project
 - [x] Bundle Install
 - [x] Run rails db:create
 - [x] Run rails db:migrate
-- [x] Run rails -s
+- [x] Run rails s
 
 Have fun ! 
